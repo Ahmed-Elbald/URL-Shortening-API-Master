@@ -580,7 +580,7 @@ input[type="submit"] {
         position: absolute;
         top: calc(var(--img-dimention) * -.5);
         left: 50%;
-        translate: -50%;
+        transform: translateX(-50%);
         background-color: var(--clr-pr-700);
 
         img {

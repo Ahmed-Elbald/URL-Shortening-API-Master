@@ -615,7 +615,8 @@ input[type=submit] {
   position: absolute;
   top: calc(var(--img-dimention) * -0.5);
   left: 50%;
-  translate: -50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   background-color: var(--clr-pr-700);
 }
 .stat-section .l-cards .card__img img {
